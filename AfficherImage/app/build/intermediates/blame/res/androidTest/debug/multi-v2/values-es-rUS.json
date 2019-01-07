@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/autofs/netapp/travail/kdanhiez/ProjetAndroid/AfficherImage/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-es-rUS/values-es-rUS.xml",
+            "map": [
+                {
+                    "source": "/tmp/android-kdanhiez/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/7e6fd9d2da7fcfbfa045efb6d30a8f2b/res/values-es-rUS/values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,334,442,527,628,751,836,918,1000,1112,1212,1313,1421,1528,1635,1794,1894",
+                        "endColumns": "119,108,107,84,100,122,84,81,81,111,99,100,107,106,106,158,99,81",
+                        "endOffsets": "220,329,437,522,623,746,831,913,995,1107,1207,1308,1416,1523,1630,1789,1889,1971"
+                    }
+                },
+                {
+                    "source": "/tmp/android-kdanhiez/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/75854902a2a5c5d2fc97a1e6fff6e474/res/values-es-rUS/values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1976",
+                        "endColumns": "100",
+                        "endOffsets": "2072"
+                    }
+                }
+            ]
+        }
+    ]
+}

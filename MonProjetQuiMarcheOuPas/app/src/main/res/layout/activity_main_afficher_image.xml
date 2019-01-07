@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kdanhiez.afficherimage.MainActivityAfficherImage">
+
+    <TextView
+        android:id="@+id/helloworld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/chien"
+        android:layout_width="294dp"
+        android:layout_height="389dp"
+        android:src="@drawable/lumberjack_dog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <Button
+        android:id="@+id/grayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gray"
+        app:layout_constraintBottom_toBottomOf="@+id/chien"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spookyButton"/>
+
+    <Button
+        android:id="@+id/spookyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spook"
+        app:layout_constraintBottom_toTopOf="@+id/grayButton"
+        app:layout_constraintLeft_toLeftOf="@+id/grayButton"
+        app:layout_constraintTop_toBottomOf="@+id/chien"/>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        app:layout_constraintRight_toRightOf="@+id/chien"
+        app:layout_constraintBottom_toTopOf="@+id/chien"/>
+
+    <Button
+        android:id="@+id/randomHueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Random Hue"
+        app:layout_constraintRight_toLeftOf="@+id/grayButton"
+        app:layout_constraintTop_toTopOf="@+id/grayButton"/>
+
+    <Button
+        android:id="@+id/randomColorKeepButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keep Color"
+        app:layout_constraintRight_toLeftOf="@+id/spookyButton"
+        app:layout_constraintTop_toTopOf="@+id/spookyButton"/>
+
+    <Button
+        android:id="@+id/invertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Invert"
+        app:layout_constraintLeft_toRightOf="@+id/spookyButton"
+        app:layout_constraintTop_toTopOf="@+id/spookyButton"/>
+
+    <Button
+        android:id="@+id/brightnessButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brightness"
+        app:layout_constraintLeft_toRightOf="@+id/grayButton"
+        app:layout_constraintTop_toTopOf="@+id/grayButton"/>
+
+    <ImageView
+        android:id="@+id/color_spectrum"
+        android:layout_width="128dp"
+        android:layout_height="152dp"
+        app:srcCompat="@drawable/color_spectrum"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

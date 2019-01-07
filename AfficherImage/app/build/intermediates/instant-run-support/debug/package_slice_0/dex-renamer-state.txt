@@ -1,0 +1,4 @@
+#Fri Oct 26 16:52:04 CEST 2018
+base.0=/autofs/netapp/travail/kdanhiez/ProjetAndroid/AfficherImage/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
